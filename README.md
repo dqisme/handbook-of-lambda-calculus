@@ -1,4 +1,3 @@
-My Awesome Book
-=======
+# λ-演算手册
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+最近在学习λ-演算（Lambda Calculus），这是逻辑学和计算理论的一个分支，从20世纪30年代就已被Alonzo Church提出。目前互联网上关于其资料也已相当丰富，但在学习过程中发现，中文材料不全、描述不慎严谨，部分外文材料也比较晦涩难懂。导致学习困难增加，理解产生歧义等问题。故参考各方尽可能权威资料，总结成文，以供参考。
