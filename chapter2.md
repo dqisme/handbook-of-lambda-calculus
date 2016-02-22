@@ -51,5 +51,5 @@
 有了“相等”的概念，我们现在先做一些化简的规则。化简包括削减非必需的左右括号 $$($$ 和 $$)$$ 和对形式语言做一些补充说明。
 1. 最外层括号可去除（Outermost parentheses are dropped）：如果 $$t$$ 为一个λ项，那么 $$(t)=t$$
 2. **λ抽象体** 最大化（The body of an abstraction extends as far right as possible）：如果 $$t$$ 为一个λ项，$$x$$ 为一个变量，那么 $$\lambda x.(t)=\lambda x.t$$
-3. **函数应用** 左结合（Applications are assumed to be left-associative）：如果 $$t$$，$$s$$，$$u$$ 皆是一个λ项，那么 $$(t s) u=$$t s u$$
+3. **函数应用** 左结合（Applications are assumed to be left-associative）：如果 $$t$$，$$s$$，$$u$$ 皆是一个λ项，那么 $$(t s) u=t s u$$
 4. 连续的 **λ抽象** 收缩（A sequence of abstractions is contracted）：如果 $$x$$, $$y$$, $$z$$ 皆是一个变量，$$t$$ 是一个λ项，那么 $$\lambda x.\lambda y. \lambda z. t=\lambda xyz. t$$
